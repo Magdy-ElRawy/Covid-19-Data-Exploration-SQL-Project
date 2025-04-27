@@ -1,7 +1,5 @@
 # Covid-19-Data-Exploration-SQL-Project
 
-# Covid-19 Data Exploration | SQL Project
-
 ## Project Overview
 This project is an exploratory analysis of global COVID-19 data using **SQL**.  
 The goal is to practice and demonstrate data exploration skills by extracting meaningful insights from pandemic data, such as infection rates, mortality rates, vaccination progress, and global trends over time.
@@ -17,7 +15,7 @@ I used **Microsoft SQL Server** to query, manipulate, and analyze datasets conta
 ---
 
 ## Key SQL Concepts Applied
-- **Data Aggregation**: Using `SUM()`, `MAX()`, and window functions like `SUM() OVER (PARTITION BY...)` for cumulative analysis.
+- **Data Aggregation**: Using `SUM()`, `MAX()`, and window functions for cumulative analysis.
 - **Joins**: Combining deaths and vaccinations datasets to derive deeper insights.
 - **CTE (Common Table Expression)**: For cleaner cumulative vaccination calculations.
 - **Window Functions**: Tracking cumulative totals over time.
